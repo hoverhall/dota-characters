@@ -1,0 +1,47 @@
+.selected-card {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+}
+
+.selected-card .lds-dual-ring {
+    margin: auto;
+}
+
+.card-img {
+    width: 400px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-data {
+    display: flex;
+    align-items: center;
+}
+
+.card-data h2 {
+    margin-right: 30px;
+}
+
+.card-data > div {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #c9c9c9;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.card-data > div:hover {
+    background-color: #ffffff;
+}
+
+.character-name {
+    width: 360px;
+    font-size: 50px;
+    font-weight: 600;
+    background-color: #ddca8d;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}

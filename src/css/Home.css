@@ -1,0 +1,78 @@
+.home-tab {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    color: #303030;
+    font-size: 50px;
+}
+
+.home-tab-shirtcut {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    height: 600px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+    .home-tab-shirtcut {
+        height: 1200px;
+    }
+}
+
+.home-shirtcut {
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 300px;
+    text-decoration: none;
+    background-position: center;
+    background-size: cover;
+    align-content: flex-end;
+}
+
+.home-shirtcut-name {
+    position: absolute;
+    /* display: flex; */
+    bottom: 0;
+    width: calc(100% - 10px);
+    height: 60px;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #000000c2;
+    backdrop-filter: blur(10px);
+    transition: all .5s;
+    overflow: hidden;
+}
+
+.home-shirtcut:hover .home-shirtcut-name  {
+    height: calc(100% - 10px);
+}
+
+.home-shirtcut-content span {
+    font-size: 20px;
+}
+
+.home-shirtcut-content > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-shirtcut-content > div div {
+    font-size: 15px;
+    background-color: #555555c0;
+    border: 0;
+    color: #ffffff;
+    padding: 3px 6px;
+    margin-bottom: 5px;
+}
+
+.home-shirtcut-content > div div:hover {
+    background-color: #808080c0;
+}
+
+.home-shirtcut-content .card-data {
+    margin-top: 20px;
+}

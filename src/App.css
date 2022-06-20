@@ -1,0 +1,22 @@
+body {
+    overflow: overlay;
+  }
+
+::-webkit-scrollbar {
+    position: fixed;
+    width: 8px;
+    height: 10px;
+    scroll-margin: 10px;
+    transition: all .5s;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(90, 90, 90, 0.719);
+    border-radius: 4px;
+    transition: all .5s;
+  }
+  
+  ::-webkit-scrollbar-track {
+    padding-right: 5px;
+    background: rgba(0, 0, 0, 0);
+  }
